@@ -1,0 +1,40 @@
+{{> header}}
+{{> navbar}}
+
+<div class="container pt-5">
+    <form action="">
+        <div class="row auth-register">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="file-input-group">
+                    <label for="file">Attache Thumbnail <img src="/public/icon/attach.svg" alt=""></label>
+                    <input type="file" id="file" hidden>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row auth-register">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <input type="text" placeholder="Title">
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row auth-register">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <textarea placeholder="Article Content" class="article-content-input"></textarea>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row auth-register">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-end">
+                <button class="btn-register">Submit</button>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </form>
+</div>
+
+{{> footer}}
